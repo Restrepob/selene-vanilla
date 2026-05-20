@@ -122,3 +122,33 @@
   --transition-fast: 120ms ease;
   --transition-normal: 180ms ease;
 }
+
+/* force typography */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+
+  /*
+    macOS-like rendering
+  */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+
+  line-height: var(--leading-normal);
+  letter-spacing: var(--tracking-normal);
+}
