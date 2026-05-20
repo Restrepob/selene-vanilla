@@ -181,3 +181,51 @@ body {
   grid-area: content;
   background: var(--bg-primary);
 }
+
+.modal-off {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: var(--space-6);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md); 
+    background-color: #1c1d1f2c;
+    backdrop-filter: blur(10px);
+}
+
+.modal-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 70%;
+    border-radius: var(--radius-md);
+    display: grid;
+    grid-template-columns: 144px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "toolbar modal-content";
+}
+
+.toolbar {
+    grid-area: toolbar;
+    background: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+}
+
+.modal-content {
+    grid-area: modal-content;
+    background: var(--bg-primary);
+    border-radius: 0px var(--radius-lg) var(--radius-lg) 0;
+}
