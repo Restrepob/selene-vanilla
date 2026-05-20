@@ -121,6 +121,16 @@
 
   --transition-fast: 120ms ease;
   --transition-normal: 180ms ease;
+
+
+   /* ======================
+     controls
+  ====================== */
+
+  --control-sm: 24px;
+  --control-md: 28px;
+  --control-lg: 34px;
+  
 }
 
 /* force typography */
