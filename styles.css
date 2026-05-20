@@ -73,26 +73,26 @@
      COLORS
   ====================== */
 
-  --bg-primary: #101113;
-  --bg-secondary: #15171a;
-  --bg-tertiary: #1b1d21;
+  --bg-primary: #f7f7f5;
+  --bg-secondary: #f1f1ef;
+  --bg-tertiary: #ebebe8;
 
-  --surface-1: #202329;
-  --surface-2: #262a31;
+  --surface-1: #ffffff;
+  --surface-2: #f6f6f4;
 
-  --border-subtle: #2c3138;
-  --border-strong: #3a4049;
+  --border-subtle: #e4e4e1;
+  --border-strong: #d6d6d2;
 
-  --text-primary: #f3f4f6;
-  --text-secondary: #b6bcc6;
-  --text-muted: #7d8590;
+  --text-primary: #1c1d1f;
+  --text-secondary: #5c6168;
+  --text-muted: #8b9098;
 
-  --accent: #4d8dff;
-  --accent-hover: #6aa0ff;
+  --accent: #4c7dff;
+  --accent-hover: #3d6ef5;
 
-  --success: #46b37b;
-  --warning: #d6a44c;
-  --danger: #d96b6b;
+  --success: #4e9d74;
+  --warning: #c7923b;
+  --danger: #c76666;
 
 
   /* ======================
