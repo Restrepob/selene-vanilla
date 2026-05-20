@@ -48,16 +48,16 @@
      SPACING SYSTEM
   ====================== */
 
-  --space-1: 2px;
-  --space-2: 4px;
-  --space-3: 6px;
-  --space-4: 8px;
-  --space-5: 10px;
-  --space-6: 12px;
-  --space-7: 16px;
-  --space-8: 20px;
-  --space-9: 24px;
-  --space-10: 32px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-9: 36px;
+  --space-10: 40px;
 
 
   /* ======================
@@ -130,6 +130,13 @@
   --control-sm: 24px;
   --control-md: 28px;
   --control-lg: 34px;
+
+  /* ======================
+     blur
+    ====================== */
+    --blur-sm: 4px;
+    --blur-md: 8px;
+    --blur-lg: 12px;
   
 }
 
