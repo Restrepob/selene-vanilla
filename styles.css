@@ -162,3 +162,22 @@ body {
   line-height: var(--leading-normal);
   letter-spacing: var(--tracking-normal);
 }
+
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "sidebar content";
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: var(--bg-secondary);
+}
+
+.content {
+  grid-area: content;
+  background: var(--bg-tertiary);
+}
