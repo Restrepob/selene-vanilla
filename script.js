@@ -28,6 +28,13 @@ function toggleModal() {
 toggleModalBtn?.addEventListener("click", toggleModal);
 closeModalBtn?.addEventListener("click", toggleModal);
 
+document.addEventListener("keydown", (event) => {
+  if (event.ctrlKey && !event.metaKey && !event.altKey && event.key.toLowerCase() === "k") {
+    event.preventDefault();
+    toggleModal();
+  }
+});
+
 // close modal if clicking outside the window
 modal?.addEventListener("click", (event) => {
   if (event.target === modal) toggleModal();
