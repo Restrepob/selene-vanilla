@@ -67,6 +67,11 @@
   --radius-sm: 4px;
   --radius-md: 6px;
   --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-xxl: 16px;
+  --radius-xxxl: 24px;
+  --radius-full: 9999px;
+
 
 
   /* ======================
@@ -203,8 +208,6 @@ body {
     padding: var(--space-6);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md); 
-    background-color: #1c1d1f2c;
-    backdrop-filter: blur(10px);
 }
 
 .modal-window {
@@ -213,26 +216,29 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
-    height: 70%;
-    border-radius: var(--radius-md);
+    height: 75%;
+    border-radius: var(--radius-xl);
     display: grid;
-    grid-template-columns: 144px 1fr;
+    grid-template-columns: 232px 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
     "toolbar modal-content";
+    border: 1px solid var(--border-strong);
 }
 
 .toolbar {
     grid-area: toolbar;
-    background: var(--bg-secondary);
+    background: #e2e0e37b;
+    backdrop-filter: var(--blur-md);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+    border-radius: var(--radius-xl) 0 0 var(--radius-xl);
+
 }
 
 .modal-content {
     grid-area: modal-content;
     background: var(--bg-primary);
-    border-radius: 0px var(--radius-lg) var(--radius-lg) 0;
+    border-radius: 0px var(--radius-xl) var(--radius-xl) 0;
 }
